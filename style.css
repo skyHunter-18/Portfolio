@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background-image: url("https://www.liquidweb.com/wp-content/uploads/2016/10/cyber-security-lessons-1.jpg"); */
+    background-color: white;
+    color: black;
+}
+.container{
+    padding: 15px 0px;
+}
+.headings{
+    color: darkblue;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
+  } */
+
+  #_progress {
+    --scroll: 0%;
+    background: linear-gradient(to right,rgb(0, 7, 143) var(--scroll),transparent 0);
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    top:0px;
+    z-index: 100;
+}
+/* ***** Main Section Starts ***** */
+#dp{
+    border: 2px solid white;
+    border-radius: 200px;
+}
+.info-head{
+    float:right;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.info{
+    color: navy;
+    font-size: 30px;
+}
+
+.info-last{
+    font-size: 15px;
+}
+/* ***** Main Section Ends ***** */
+
+/* ***** Bio Section Starts ***** */
+
+.bio-info{
+    margin: 20px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.small-bio{
+    font-size: 14px;
+    color:black;
+    font-weight: normal;
+}
+/* ***** Bio Section Ends ***** */
+
+/* ***** Profile Section Starts ***** */
+.pro{
+    padding: 10px 0;
+}
+/* ***** Profile Section Ends ***** */
+
+/* ***** Social Media Section Starts ***** */
+.social-head{
+    margin: 10px 0;
+    font-size: 23px;
+    font-weight: 500;
+    color:darkblue;
+}
+.links{
+    margin-top: 20px;
+    /* margin-left: 25px; */
+    border: 2px solid white;
+    /* border-radius: 64px; */
+}
+.icons{
+    color:black;
+}
+.icons:hover{
+    color: gray;
+}
+
+/* ***** Social Media Section Ends ***** */
+
+
+/* ***** Education Section Starts ***** */
+
+
+.edu-col{
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* ***** Education Section Ends ***** */
+
+
+/* ***** Certificates Section Starts ***** */
+
+.cer{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.see-cred{
+    font-size: 14px;
+}
+.see-cred > a{
+    color: red;
+}
+/* ***** Certificates Section Ends ***** */
+
+
+/* ***** Skils Section Starts ***** */
+
+.skill-info{
+    margin-top: 5px;
+    padding: 15px 15px;
+    font-size: 17px;
+}
+.progress{
+    color: antiquewhite !important;
+}
+/* ***** Skils Section Ends ***** */
+
+/* ***** Conatact Section Starts ***** */
+.address-head{
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-info{
+    font-size: 20px;
+    font-weight: 400;
+}
+.con-last{
+    color: gray;
+    font-weight: 450;
+}
+/* ***** Conatact Section Ends ***** */
+
+/* ***** Form Starts ***** */
+.form-head{
+    font-size: 23px;
+    font-weight: 500;
+}
+#feedback-form{
+    /* background-color:#eeeeee; */
+    margin: 15px 0;
+    padding: 15px;
+    max-width: 850px;
+    border:2px solid black;
+    border-radius: 12px;
+}
+.container-form{
+    padding: 10px;
+    width: 800px;
+}
+input{
+    margin: 5px;
+    padding: 5px 5px;
+    /* border-radius: 5px; */
+    /* background-color: ghostwhite; */
+}
+#write{
+    height: 200px;
+}
+.submit-btn{
+    background-color: lightslategray;
+    border-radius: 6px;
+    color: white;
+}
+.submit-btn:hover{
+    background-color:black;
+}
+/* ***** Form Ends *****  */
+
+/* ***** Footer Starts ***** */
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+}
+/* ***** Footer Ends ***** */
