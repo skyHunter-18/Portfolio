@@ -62,8 +62,8 @@ body{
 /* ***** Bio Section Starts ***** */
 
 .bio-info{
-    margin: 20px;
-    margin-left: 0;
+    /* margin: 20px; */
+    /* margin-left: 10px; */
     font-weight: bold;
 }
 
@@ -165,13 +165,13 @@ body{
     /* background-color:#eeeeee; */
     margin: 15px 0;
     padding: 15px;
-    max-width: 850px;
+    width: 700px;
     border:2px solid black;
     border-radius: 12px;
 }
 .container-form{
     padding: 10px;
-    width: 800px;
+    /* width: 800px; */
 }
 input{
     margin: 5px;
