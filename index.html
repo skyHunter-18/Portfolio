@@ -6,36 +6,51 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Tushar Gupta - PORTFOLIO</title>
+
+    <!-- vanta js assets add id="vantajs" to use -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script> -->
+
+    
 </head>
 <body>
+    <!-- Progress Bar  -->
     <div id="_progress"></div>
     <br><br><br>
     <!-- Main Section Starts -->
-    <div id="main" class="container ">
-        <img src="tushar-mini.jpeg" class="col-md-3" id="dp" alt="">
+    <div id="main" class="container">
+        <img src="tushar-1.jpg" class="col-md-3" id="dp" alt="">
         <div class="info-head col-md-9">
             <h1 class="info">Hey there, I am <span id="name">TUSHAR GUPTA</span>.</h1>
             <div class="info-last">Student at VIT Bhopal.</div>
         </div>
-    </div>
-    <!-- Main Section Ends -->
 
-    <!-- Bio Section Starts -->
+            <!-- Bio Section Starts -->
     <div class="container bio">
         <div class="row">
-            <div id="birth" class="col-4">
-                <div  class="bio-info">January 18 2001<br> <span class="small-bio"> BIRTH </span></div>
-            </div>
-            <div id="nationality" class="col-4">
-                <div class="bio-info">INDIAN <br> <span class="small-bio">NATIONALITY</span></div>
-            </div>
-            <div id="language" class="col-4">
-                <div class="bio-info">English, Hindi <br> <span class="small-bio">LANGUAGES</span></div>
+            <div class="col-5"></div>
+            <div class="col-7">
+                <div class="row">
+                    <div id="birth" class="col-md-4 col-sm">
+                        <div  class="bio-info">JANUARY 18 2001<br> <span class="small-bio"> BIRTH </span></div>
+                    </div>
+                    <div id="nationality" class="col-md-4 col-sm">
+                        <div class="bio-info">INDIAN <br> <span class="small-bio">NATIONALITY</span></div>
+                    </div>
+                    <div id="language" class="col-md-4 col-sm">
+                        <div class="bio-info">ENGLISH, HINDI <br> <span class="small-bio">LANGUAGES</span></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Bio Section Ends -->
+    </div>
+    <!-- Main Section Ends -->
+
+
 
 
     <!-- Profile Sections Starts -->
@@ -59,19 +74,19 @@
             <span class="education-head headings">EDUCATION</span>
             <div class="container">
                 <div class="row">
-                    <div class="edu-col col-md-11">
+                    <div class="edu-col col-10">
                         B-Tech in Computer Science with Specialization in Cyber Security and Digital Forensics <br> VIT Bhopal University
                         <div class="edu-last">Bhopal, India</div> 
                     </div>
-                    <div class="col-pass">2019-2023</div>
+                    <div class="col-pass col-2">2019-2023</div>
                 </div>
-                <div class="row">
-                    <div class="edu-col col-md-11">
+                <!-- <div class="row">
+                    <div class="edu-col col-10">
                         High School from DELHI PUBLIC SCHOOL <br> NTPC KORBA 
                         <div class="edu-last">Chhattisgarh, India</div>
                     </div>
-                    <div class="col-pass">2017-2019</div>
-                </div>
+                    <div class="col-pass col-2">2017-2019</div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -80,63 +95,69 @@
     <!-- Certificates Section Starts -->
     <div id="certificates" class="container">
         <div class="cert" >
-            <span class="headings">CERTIFICATES</span> 
-            <div class="container">
-                <div class="row">
-                    <div class="cer col-md-11">
-                        The Bits and Bytes of Computer Networking - Google - Coursera
-                        <div class="see-cred">
-                            <a href="https://coursera.org/share/c81c2d8657c294aadfb3b97ed5526f70" target="_blank" rel="noopener noreferrer">SEE CREDENTIALS</a>
-                        </div>
-                    </div>
-                    <div class="cer-date col-md-1">2020</div>
-                    <div class="cer col-md-11">
-                        HTML, CSS, and Javascript for Web Developers - John Hopkins University - Coursera
-                        <div class="see-cred">
-                            <a href="https://coursera.org/share/293b82c01382e73f77adb5f7ec1c4837" target="_blank" rel="noopener noreferrer">SEE CREDENTIALS</a>
-                        </div>
-                    </div>
-                    <div class="com-date col-md-1">2020</div>
+            <span class="headings">CERTIFICATIONS</span> 
+            <div class="individual-cer row">
+                <div class="cer col-11">
+                    The Bits and Bytes of Computer Networking - Google - Coursera
+                    <p class="see-cred">
+                        <a href="https://coursera.org/share/c81c2d8657c294aadfb3b97ed5526f70" target="_blank" rel="noopener noreferrer">SEE CREDENTIALS</a>
+                    </p>
                 </div>
+
+                <div class="cer-date col-1">2020</div>
+            </div>
+
+
+            <div class="individual-cer row">
+                <div class="cer col-11">
+                    HTML, CSS, and Javascript for Web Developers - John Hopkins University - Coursera
+                    <div class="see-cred">
+                        <a href="https://coursera.org/share/293b82c01382e73f77adb5f7ec1c4837" target="_blank" rel="noopener noreferrer">SEE CREDENTIALS</a>
+                    </div>
+                </div>
+
+                <div class="cer-date col-1">2020</div>
             </div>
         </div>
     </div>
     <!-- Certificates Section Ends -->
 
     <!-- Skils Section Starts -->
-    <div id="skill-head" class="container">
-        <div class="skill" >
-            <span class="headings">My Skills</span>
-            <div class="container">
-                <div class="row row-cols-2">
-                    <div class="skill-info col">C++
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 77%"><span class="progress-percent"> 77%</span>
-                            </div>
+    <div id="skill-head" class="container skill">
+        <span class="headings">My Skills</span>
+        <div class="container">
+            <div class="row">
+                <div class="skill-info col-md-7 col-7">C++
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 77%"><span class="progress-percent"> 77%</span>
                         </div>
                     </div>
-                    <div class="skill-info col">SQL
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 64%"><span class="progress-percent"> 64%</span>
-                            </div>
+                </div>
+
+                <div class="skill-info col-md-7 col-7">SQL
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 64%"><span class="progress-percent"> 64%</span>
                         </div>
                     </div>
-                    <div class="skill-info col">HTML5
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 82%"><span class="progress-percent"> 82%</span>
-                            </div>
+                </div>
+
+                <div class="skill-info col-md-7 col-7">HTML5
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 82%"><span class="progress-percent"> 82%</span>
                         </div>
                     </div>
-                    <div class="skill-info col">CSS3
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 87%"><span class="progress-percent"> 87%</span>
-                            </div>
+                </div>
+
+                <div class="skill-info col-md-7 col-7">CSS3
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 87%"><span class="progress-percent"> 87%</span>
                         </div>
                     </div>
-                    <div class="skill-info col">JavaScript
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 61%"><span class="progress-percent"> 61%</span>
-                            </div>
+                </div>
+
+                <div class="skill-info col-md-7 col-7">JavaScript
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 61%"><span class="progress-percent"> 61%</span>
                         </div>
                     </div>
                 </div>
@@ -148,50 +169,59 @@
     <!-- Conatact Section Starts  -->
     <div id="contact" class="container">
         <div class="row">
-            <div class="col-md-12">
-        <span class="headings">Contact</span> 
-        <div class="container">
-            <div class="row">
-                
-                <div class="address-head col-md-3">
-                    <span class="contact-info">ADDRESS</span> <br> <span class="con-last"> KORBA <br>CHHATTISGARH</span>
-                </div>
-                <div class="email col-md-3">
-                    <span class="contact-info">EMAIL</span> 
-                    <div><span class="con-last">_</span></div>
-                    <!-- <a href="mailto:#">tushargupta383@gmail.com </a> -->
-                </div>
-                <div class="mobile col-md-2">
-                    <span class="contact-info">MOBILE</span>
-                    <div><span class="con-last">_</span></div>
-                </div>
-                <!-- Social Media Section Starts -->
-                <div class="links col-md-1">
-                    <a href="https://www.facebook.com/tushar.gupta.58118/" class="icons"  target="_blank">
-                        <i class="fab fa-facebook fa-3x"></i>
-                    </a>
-                </div>
-                <div class="links col-md-1">
-                    <a href="https://www.instagram.com/tushar_gupta_018/"  class="icons" target="_blank">
-                        <i class="fab fa-instagram fa-3x"></i>
-                    </a>
-                </div>
-                <div class="links col-md-1">
-                    <a href="https://www.linkedin.com/in/tushar-gupta-a12594192/" class="icons"  target="_blank">
-                        <i class="fab fa-linkedin fa-3x"></i>
-                    </a>
-                </div>
-                <div class="links col-md-1">
-                    <a href="https://github.com/tushargupta-18" class="icons"  target="_blank">
-                        <i class="fab fa-github fa-3x"></i>
-                    </a>
-                </div>
-                <!-- Social Media Section Ends -->
-            </div>
-            </div>
-        </div>
-            
+            <div class="col-8">
+            <span class="headings">Contact</span> 
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="address-head col-md-3">
+                        <span class="contact-info">ADDRESS</span> <br> <span class="con-last"> KORBA <br>CHHATTISGARH</span>
+                    </div>
 
+                    <div class="email col-md-3">
+                        <span class="contact-info">EMAIL</span> 
+                        <div><span class="con-last">_</span></div>
+                        <!-- <a href="mailto:#">tushargupta383@gmail.com </a> -->
+                    </div>
+
+                    <div class="mobile col-md-2">
+                        <span class="contact-info">MOBILE</span>
+                        <div><span class="con-last">_</span></div>
+                    </div>
+                </div>
+                </div>
+        </div>
+                        <div class="col-4">
+                            <!-- Social Media Section Starts -->
+                            <div class="headings">Connect With Me</div>
+                            <div class="row">
+                            <div class="links col text-center">
+                                <a href="https://www.facebook.com/tushar.gupta.58118/" class="icons"  target="_blank">
+                                    <i class="fab fa-facebook fa-3x"></i>
+                                </a>
+                            </div>
+            
+                            <div class="links col text-center">
+                                <a href="https://www.instagram.com/tushar_gupta_018/"  class="icons" target="_blank">
+                                    <i class="fab fa-instagram fa-3x"></i>
+                                </a>
+                            </div>
+            
+                            <div class="links col text-center">
+                                <a href="https://www.linkedin.com/in/tushar-gupta-a12594192/" class="icons"  target="_blank">
+                                    <i class="fab fa-linkedin fa-3x"></i>
+                                </a>
+                            </div>
+                            
+                            <div class="links col text-center">
+                                <a href="https://github.com/tushargupta-18" class="icons"  target="_blank">
+                                    <i class="fab fa-github fa-3x"></i>
+                                </a>
+                            </div>
+                        </div>
+                            <!-- Social Media Section Ends -->
+
+                        </div>
             <!-- <div id="social" class="col-md-3" >
                 <span class="social-head">Social Media</span>
                 <div class="row">
@@ -204,20 +234,22 @@
 
 
             <!-- Form Starts  -->
-            <div id="feedback-form" class="col-12">
+            <!-- <div id="feedback-form" class="col-12">
                 <span class="form-head">GET IN TOUCH</span>
                 <div id="contact-form" class="row">
-                    <div class="container-form">
-                        <input type="text"  name="Full Name" placeholder="Full Name" id="full-name" class="input-text col-md-12">
+                    <form action="mailto:tushargupta383@gmail.com" class="container-form">
+                        <input type="text"  name="Full Name" placeholder="Full Name" id="full-name" class="input-text col-md-12" required>
                         <br>
-                        <input type="email" name="Email" placeholder="Email" id="email-id" class="input-text col-md-12">
-                        <br>
-                        <input type="text" name="Subject" placeholder="Subject" id="subject" class="input-text col-md-12">
-                        <input type="text" name="write to us" placeholder="Write To Me" id="write" class="input-text col-md-12">
-                        <input type="button" value="Submit" class="submit-btn">
-                    </div>
+                        <div id="name-error" class="col" style="color: red; font-size: small;"></div>
+                        <input type="email" name="Email" placeholder="Email" id="email-id" class="input-text col-md-12" required>
+                        <div id="email-error" class="col" style="color: red; font-size: small;"></div>
+                        <input type="text" name="Subject" placeholder="Subject" id="subject" class="input-text col-md-12" required>
+                            <div id="subject-error" class="col" style="color: red; font-size: small;"></div> -->
+                        <!-- <input type="text" name="write to us" placeholder="Write To Me" id="write" class="input-text col-md-12">
+                        <input type="submit" value="Submit" id="myBtn" class="submit-btn" onclick="clear()">
+                    </form>
                 </div>
-            </div>
+            </div> -->
             <!-- Form Ends -->
         
     </div>
@@ -227,7 +259,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12">Copyright &copy; 2021 All Rights Reserved <br>
+                <div class="col-12">Copyright &copy; 2021 All Rights Reserved |
                     Design By: 
                     <a href="#" class="name" style="color: darkblue" >Tushar Gupta</a> </div>
             </div>
