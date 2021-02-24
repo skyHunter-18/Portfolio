@@ -86,8 +86,8 @@ body{
     color:darkblue;
 }
 .links{
-    margin-top: 20px;
-    /* margin-left: 25px; */
+    margin-top: 10px;
+    /* margin-left: 10px; */
     /* border: 2px solid white; */
     /* border-radius: 64px; */
 }
@@ -141,7 +141,8 @@ body{
 
 .skill-info{
     margin-top: 5px;
-    padding: 15px 15px;
+    padding: 10px 0px 5px 17px;
+    /* padding-left: 25px; */
     font-size: 17px;
 }
 .progress{
@@ -161,6 +162,9 @@ body{
 .con-last{
     color: gray;
     font-weight: 450;
+}
+.color-mail{
+    color:darkblue;
 }
 /* ***** Conatact Section Ends ***** */
 
