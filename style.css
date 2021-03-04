@@ -56,9 +56,9 @@ body{
 /* ***** Main Section Ends ***** */
 
 /* ***** Bio Section Starts ***** */
-.bio{
-    /* margin:0px 600px ; */
-}
+/* #bio{
+    margin:0px 600px ;
+} */
 .bio-info{
     /* margin: 20px; */
     /* margin-left: 10px; */
@@ -141,16 +141,35 @@ body{
 
 .skill-info{
     margin-top: 5px;
-    padding: 10px 0px 5px 17px;
+    padding: 10px 0px 0px 0px;
     /* padding-left: 25px; */
     font-size: 17px;
 }
 .progress{
     color: antiquewhite !important;
 }
+
+/* .progress-bar{
+    background-color: royalblue;
+} */
+
+.skill-heading{
+    color: darkblue;
+    font-size: 20px;
+    /* padding-top: 5px; */
+}
+
+/* .skill-bor{
+    border-right: 1px  black;
+    border-left: 1px solid black;
+    margin: 0px 2ch;
+} */
 /* ***** Skils Section Ends ***** */
 
 /* ***** Conatact Section Starts ***** */
+/* #contact{
+    margin-top: 20px;
+} */
 .address-head{
     font-size: 17px;
     font-weight: 500;
@@ -206,9 +225,13 @@ input{
 
 /* ***** Footer Starts ***** */
 footer{
-    background-color: whitesmoke;
+    background-color:ghostwhite;
+    color: black;
     /* background-image: linear-gradient(to right,  ghostwhite, lightskyblue); */
     text-align: right;
     font-size: 14px;
+}
+.name{
+    color: darkblue;
 }
 /* ***** Footer Ends ***** */
